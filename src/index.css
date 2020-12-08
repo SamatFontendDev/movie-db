@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.heart{
+  position: absolute;
+  width: 32px;
+  height: 30px;
+  right: 10px;
+  bottom: 15px;
+  stroke: #000;
+  stroke-width: 10px;
+  fill: transparent;
+  transition: .2s;
+  cursor: pointer;
+  z-index: 2;
+}
+.heart:hover{
+  stroke: red;
+  stroke-width: 3px;
+  fill: red;
+  transition: .2s;
+}
+.films{
+  padding-top: 80px;
+}
